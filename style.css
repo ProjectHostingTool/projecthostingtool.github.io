@@ -90,9 +90,9 @@ section {
 
 
 .productive {
-    margin: 0 auto; /* This will center the element horizontally */
+    position:relative;
+    left: 25%;
 }
-
 .intro img,
 .productive img {
     width: 100%;

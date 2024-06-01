@@ -2,43 +2,148 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Responsive Navbar with pure JavaScript</title>
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,800&amp;display=swap'><link rel="stylesheet" href="./style.css">
+  <title>Project Hosting Tool</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.2/css/all.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans|Raleway'>
+<link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<header class="header-area">
-  <!-- site-navbar start -->
-  <div class="navbar-area">
-    <div class="container">
-      <nav class="site-navbar">
-        <!-- site logo -->
-        <a href="#home" class="site-logo">logo</a>
+<header>
+        <div class="logo-container"><img src="assest/amarok_transparent.png" alt="logo-img" width="126px"></div>
 
-        <!-- site menu/nav -->
-        <ul>
-          <li><a href="#">home</a></li>
-          <li><a href="#">about</a></li>
-          <li><a href="#">service</a></li>
-          <li><a href="#">contact</a></li>
-        </ul>
-
-        <!-- nav-toggler for mobile version only -->
-        <button class="nav-toggler">
-          <span></span>
-        </button>
-      </nav>
-    </div>
-  </div><!-- navbar-area end -->
-
-  <div class="intro-area">
-    <div class="container">
-      <h2>Responsive Navbar with pure JavaScript</h2>
-      <p>Please resize your browser and see the result</p>
-    </div>
-  </div>
 </header>
+
+
+    <main>
+        <section class="intro">
+            <div class="intro-img"> <img src="assest/pht.png" alt="illustration-intro" width="256px"></div>
+            <div class="intro-content">
+                <h1>Install - Manage - Run</h1>
+                <p class="lg-p mt-2">
+                    Big projects done by hundreds of people? Let kubernetes do it, I am interested in your project. 
+                    <br>
+                    PHT is a powerful tool designed to simplify the process of automatically installing, managing, and running applications within Docker containers.
+                </p>
+
+<!--
+                <button class="btn mt-2"> Get Started</button></div>
+
+-->
+
+        </section>
+        <section class="features">
+
+            <div class="features-item">
+                <div class="features-item-head"> <img src="https://cdn0.iconfinder.com/data/icons/web-development-79/32/development_upload_laptop_arrow-128.png" alt=""> </div>
+                <div class="features-item-body  mt-2">
+                    <h3>Deployment</h3>
+
+                    <p>Deploy your projects swiftly and efficiently.</p>
+                </div>
+            </div>
+
+            <div class="features-item">
+                <div class="features-item-head"> <img src="https://cdn0.iconfinder.com/data/icons/web-pack-1/64/077-framework-deployment-component-module-3d-scaling-cube-128.png" alt=""> </div>                
+                <div class="features-item-body mt-2">
+                    <h3>Scalability</h3>
+                    <p>Seamlessly scale your applications as needed.</p>
+                </div>
+
+            </div>
+            <div class="features-item">
+                <div class="features-item-head"> <img src="https://cdn2.iconfinder.com/data/icons/popicon-part-1/256/24-128.png" alt=""> </div>
+                <div class="features-item-body  mt-2">
+                    <h3>Automated Installation</h3>
+                    <p>Automatically installs applications(modules) within Docker containers.</p>
+                </div>
+
+            </div>
+            <div class="features-item">
+                <div class="features-item-head"> <img src="https://cdn2.iconfinder.com/data/icons/leto-blue-gdpr/64/gdpr_data_portability-128.png" alt=""> </div>
+                <div class="features-item-body  mt-2">
+                    <h3>Portability</h3>
+                    <p>Run your applications anywhere Docker is supported.</p>
+                </div>
+            </div>
+        </section>
+        <section class="productive">
+            <div class="productive-img"> <img src="https://hannahshiels.github.io/front-end-mentor/fylo-dark-theme-landing-page-master/images/illustration-stay-productive.png" alt=""> </div>
+
+            <div class="productive-content">
+
+                <h2>Stay productive, wherever you are</h2>
+
+                <p class="lg-p"> Never let complexity be a problem when starting new projects. <br> Develop all your projects the way you know how, set an startup file and run them in isolation. </p>
+
+                <p class="lg-p"> <a class="content-link" href="#">See how PHT works <i class="fas fa-arrow-alt-circle-right"></i></a> </p>
+            </div>
+        </section>
+
+        <div class="slider">
+            <div class="slide-track">
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+                </div>
+            </div>
+        </div>
+
+        <section class="testimonial">
+            <div class="testimonial-item">
+                <div class="testimonial-item-text">
+                    <p>PHT has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+                </div>
+                <div class="testimonial-item-reviewer">
+                    <div class="testimonial-item-reviewer-img"> <img src="https://hannahshiels.github.io/front-end-mentor/fylo-dark-theme-landing-page-master/images/profile-2.jpg" alt=""></div>
+                    <div class="ml-1 testimonial-item-reviewer-text">
+                        <h4> Bruce McKenzie </h4>
+                        <p>Founder & CEO, Huddle</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 <!-- partial -->
   <script  src="./script.js"></script>
 

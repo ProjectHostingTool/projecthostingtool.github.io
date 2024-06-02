@@ -11,8 +11,13 @@
 </head>
 <body>
 
-<div class="layer">
+<div class="layer" id="anim">
     <iframe src="anim.html" width="256" height="256" frameborder="0" scrolling="no"></iframe>
+</div>
+
+<div class="layer" id="diagram">
+    <img id="close-button" src="https://cdn2.iconfinder.com/data/icons/buno-ui-interface/32/__cancel_close_stop-64.png" alt="close diagram" onclick="hide('diagram')">
+    <iframe src="diagram.html" width="1920" height="1080" frameborder="0"></iframe>
 </div>
 
 <!-- partial:index.partial.html -->
@@ -49,7 +54,7 @@
 
                 <p class="lg-p"> Never let complexity be a problem when starting new projects. <br> Develop all your projects the way you know how, set an startup <br> file and run them in isolation. </p>
 
-                <p class="lg-p"> <a class="content-link" href="#">See how PHT works <i class="fas fa-arrow-alt-circle-right"></i></a> </p>
+                <p class="lg-p"> <a class="content-link" onclick="display('diagram')">See how PHT works <i class="fas fa-arrow-alt-circle-right"></i></a> </p>
             </div>
         </section>
         <section class="features">

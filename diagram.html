@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - React components lifecycle diagram</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat'><link rel="stylesheet" href="./diagram.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<ul class="descriptions">
+
+  <li class="description" id="CAIdepends">
+    <h2 class="heading heading--2">Check and install depends</h2>
+    <p>DEPENDS: Git / Docker / Computer / Core Utils / Root permission / Network Connection / UNIX Like file system</p>
+  </li>
+
+  <li class="description" id="SetPath">
+    <h2 class="heading heading--2">Paths Explanation</h2>
+    <p>
+      Installation path: /opt/PHT <br>
+      Modules path: /opt/PHT/core/modules
+    </p>
+  </li>
+
+  <li class="description" id="CheckPerm">
+    <h2 class="heading heading--2">Permission</h2>
+    <p>
+      PHT need Root permission for managing Docker ecosystem with full access
+    </p>
+  </li>
+
+  <li class="description" id="ChangeWD">
+    <h2 class="heading heading--2">Path</h2>
+    <p>
+      PHT uses <code>source</code> intelligence architecture, that's cause one path set. <br>
+      Root PATH: /opt/PHT
+    </p>
+  </li>
+
+  <li class="description" id="RunGit">
+    <h2 class="heading heading--2">Update</h2>
+    <p>
+      PHT has rolling version and it's uses <code>GIT</code> architecture for updating codes<br>
+      The Code: <code>git pull origin main</code>
+    </p>
+  </li>
+
+  <li class="description description--placeholder">
+    <h2 class="heading heading--2">PHT lifecycle diagram</h2>
+    <p>Click on a method to see a description.</p>
+    Created by <a>The Abra</a>.</p>
+  </li>
+
+  <li class="description__close"><a href="#">×</a></li>
+</ul>
+
+<div class="lanes">
+  <ul class="lane">
+    <li class="lane__title">Installation</li>
+    <li class="lane__item"><a class="step" href="#CAIdepends">Check and install depends</a></li>
+    <li class="lane__item"><a class="step" href="#SetPath">Set Path</a></li>  
+    <li class="lane__item"><a class="step" href="#InstallFiles">Install files</a></li>  
+  </ul>
+
+  <ul class="lane">
+    <li class="lane__title">Updating</li>
+    <li class="lane__item"><a class="step" href="#CheckPerm">Check Permission</a></li>
+    <li class="lane__item"><a class="step" href="#ChangeWD">Change working path</a></li>
+    <li class="lane__item"><a class="step" href="#RunGit">Run Git</a></li>
+  </ul>
+  <ul class="lane">
+    <li class="lane__title">Removing</li>
+    <li class="lane__item"><a class="step" href="#RemoveModules">Remove Modules</a></li>
+    <li class="lane__item"><a class="step" href="#RemoveFiles">Remove Files</a></li>
+  </ul>
+  <ul class="lane">
+    <li class="lane__title">Module Process</li>
+    <li class="lane__item"><a class="step" href="#GetModules">Get Project</a></li>
+    <li class="lane__item"><a class="step" href="#StatusModules">Status Module</a></li>
+    <li class="lane__item"><a class="step" href="#UpdateModules">Update Module</a></li>
+    <li class="lane__item"><a class="step" href="#RunModules">Run Module</a></li>
+    <li class="lane__item"><a class="step" href="#RemoveModules">Remove Module</a></li>
+  </ul>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
